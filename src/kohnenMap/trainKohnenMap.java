@@ -6,6 +6,7 @@
 package kohnenMap;
 
 import java.util.ArrayList;
+import javax.swing.JFrame;
 
 /**
  * @author mahendra
@@ -75,7 +76,7 @@ public class trainKohnenMap {
         }
     }
 
-    void run(int num_iter, NewJFrame frame) {
+    void run(int num_iter, SOM_GUI frame) {
 
         //initi
         for (int t = 0; t < num_iter; t++) {
